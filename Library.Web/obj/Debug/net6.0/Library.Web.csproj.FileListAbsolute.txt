@@ -423,3 +423,4 @@
 /Users/azitowolf/Documents/Development/cs50-library-app/Library.Web/obj/Debug/net6.0/Library.Web.pdb
 /Users/azitowolf/Documents/Development/cs50-library-app/Library.Web/obj/Debug/net6.0/Library.Web.genruntimeconfig.cache
 /Users/azitowolf/Documents/Development/cs50-library-app/Library.Web/obj/Debug/net6.0/ref/Library.Web.dll
+/Users/azitowolf/Documents/Development/cs50-library-app/Library.Web/obj/Debug/net6.0/Library.Web.sourcelink.json

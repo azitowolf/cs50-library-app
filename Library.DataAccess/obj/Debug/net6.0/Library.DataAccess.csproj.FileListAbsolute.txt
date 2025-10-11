@@ -17,3 +17,4 @@
 /Users/azitowolf/Documents/Development/cs50-library-app/Library.DataAccess/obj/Debug/net6.0/Library.DataAccess.pdb
 /Users/azitowolf/Documents/Development/cs50-library-app/Library.DataAccess/obj/Debug/net6.0/Library.DataAccess.genruntimeconfig.cache
 /Users/azitowolf/Documents/Development/cs50-library-app/Library.DataAccess/obj/Debug/net6.0/ref/Library.DataAccess.dll
+/Users/azitowolf/Documents/Development/cs50-library-app/Library.DataAccess/obj/Debug/net6.0/Library.DataAccess.sourcelink.json

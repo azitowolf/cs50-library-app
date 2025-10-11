@@ -15,3 +15,4 @@
 /Users/azitowolf/Documents/Development/cs50-library-app/Library.Services.Interface/obj/Debug/net6.0/refint/Library.Services.Interface.dll
 /Users/azitowolf/Documents/Development/cs50-library-app/Library.Services.Interface/obj/Debug/net6.0/Library.Services.Interface.pdb
 /Users/azitowolf/Documents/Development/cs50-library-app/Library.Services.Interface/obj/Debug/net6.0/ref/Library.Services.Interface.dll
+/Users/azitowolf/Documents/Development/cs50-library-app/Library.Services.Interface/obj/Debug/net6.0/Library.Services.Interface.sourcelink.json

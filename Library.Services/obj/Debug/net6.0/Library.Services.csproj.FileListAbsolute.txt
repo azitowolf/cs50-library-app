@@ -17,3 +17,4 @@
 /Users/azitowolf/Documents/Development/cs50-library-app/Library.Services/obj/Debug/net6.0/refint/Library.Services.dll
 /Users/azitowolf/Documents/Development/cs50-library-app/Library.Services/obj/Debug/net6.0/Library.Services.pdb
 /Users/azitowolf/Documents/Development/cs50-library-app/Library.Services/obj/Debug/net6.0/ref/Library.Services.dll
+/Users/azitowolf/Documents/Development/cs50-library-app/Library.Services/obj/Debug/net6.0/Library.Services.sourcelink.json

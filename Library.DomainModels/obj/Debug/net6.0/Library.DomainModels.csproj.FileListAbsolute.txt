@@ -9,3 +9,4 @@
 /Users/azitowolf/Documents/Development/cs50-library-app/Library.DomainModels/obj/Debug/net6.0/refint/Library.DomainModels.dll
 /Users/azitowolf/Documents/Development/cs50-library-app/Library.DomainModels/obj/Debug/net6.0/Library.DomainModels.pdb
 /Users/azitowolf/Documents/Development/cs50-library-app/Library.DomainModels/obj/Debug/net6.0/ref/Library.DomainModels.dll
+/Users/azitowolf/Documents/Development/cs50-library-app/Library.DomainModels/obj/Debug/net6.0/Library.DomainModels.sourcelink.json
