@@ -1,0 +1,73 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Library.Services/1.0.0": {
+        "dependencies": {
+          "Library.DomainModels": "1.0.0",
+          "Library.Services.Interface": "1.0.0"
+        },
+        "runtime": {
+          "Library.Services.dll": {}
+        }
+      },
+      "Library.DataAccess.Interface/1.0.0": {
+        "dependencies": {
+          "Library.DomainModels": "1.0.0"
+        },
+        "runtime": {
+          "Library.DataAccess.Interface.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Library.DomainModels/1.0.0": {
+        "runtime": {
+          "Library.DomainModels.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Library.Services.Interface/1.0.0": {
+        "dependencies": {
+          "Library.DataAccess.Interface": "1.0.0",
+          "Library.DomainModels": "1.0.0"
+        },
+        "runtime": {
+          "Library.Services.Interface.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Library.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Library.DataAccess.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Library.DomainModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Library.Services.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

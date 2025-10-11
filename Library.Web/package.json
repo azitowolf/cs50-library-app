@@ -1,0 +1,13 @@
+{
+  "name": "library.web",
+  "version": "1.0.0",
+  "description": "Demo project to help alex learn dotnet and azure",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dotnet:publish": "dotnet publish -p:PublishProfile=FolderProfile -o ./publish",
+    "dotnet:run": "dotnet run --project Library.Web"
+  },
+  "author": "Alex Zito-Wolf",
+  "license": "ISC"
+}

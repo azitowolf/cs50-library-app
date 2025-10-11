@@ -1,0 +1,14 @@
+﻿@model Library.DomainModels.Book
+
+<h2>@Model.Title</h2>
+<div>@Model.Author</div>
+<div>@Model.Id</div>
+<div>@Model.CreatedOn</div>
+<div>@Model.IsAvailable</div>
+
+@if(Model.ImageUrl != null)
+{
+    <img src=@Model.ImageUrl style="width:400px"/>
+}
+
+

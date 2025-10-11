@@ -1,0 +1,19 @@
+@using Azure
+@using Azure.Search.Documents.Models
+@model List<Azure.Search.Documents.Models.SearchResult<SearchResult>>;
+@{ 
+    ViewData["Title"] = "Search Results";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Search Results</h1>
+</div>
+
+<div>@Model.Count</div>
+
+@foreach (var i in Model)
+{
+    <p>
+        @i.Document.Title
+    </p>
+}

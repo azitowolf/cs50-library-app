@@ -1,0 +1,29 @@
+﻿@model Library.Web.Models.HomeViewModel;
+@{ ViewData["Title"] = "Home Page"; }
+
+<div class="text-center">
+    <h1 class="display-4">Library Demo App</h1>
+    <p>Find Books and Authors and Books By Authors.</p>
+</div>
+
+<div class="home-image-collage ">
+    @foreach (var i in Model.BookList)
+    {
+        <img style="background-image:url('@i.ImageUrl');" class="home-image" />
+    }
+
+    @foreach (var i in Model.BookList)
+    {
+        <div>@i.Title @i.ImageUrl</div>
+    }
+
+</div>
+
+<style>
+    .home-image {
+        width: 33%;
+        height: 600px;
+        background-size: cover;
+        background-position: center;
+    }
+</style>

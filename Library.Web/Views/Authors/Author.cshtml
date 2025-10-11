@@ -1,0 +1,15 @@
+﻿@model Library.DomainModels.Author
+@{
+}
+
+<div>
+    <h2>@Model.Name</h2>
+    <p>Id: @Model.Id</p>
+    <h3>Books</h3>
+    <ul>
+    @foreach(var book in Model.Books)
+    {
+        <li>@book.Title</li>
+    }
+    </ul>
+</div>

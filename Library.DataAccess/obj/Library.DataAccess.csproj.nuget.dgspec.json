@@ -1,0 +1,230 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/azitowolf/Documents/Development/cs50-library-app/Library.DataAccess/Library.DataAccess.csproj": {}
+  },
+  "projects": {
+    "/Users/azitowolf/Documents/Development/cs50-library-app/Library.DataAccess.Interface/Library.DataAccess.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/azitowolf/Documents/Development/cs50-library-app/Library.DataAccess.Interface/Library.DataAccess.Interface.csproj",
+        "projectName": "Library.DataAccess.Interface",
+        "projectPath": "/Users/azitowolf/Documents/Development/cs50-library-app/Library.DataAccess.Interface/Library.DataAccess.Interface.csproj",
+        "packagesPath": "/Users/azitowolf/.nuget/packages/",
+        "outputPath": "/Users/azitowolf/Documents/Development/cs50-library-app/Library.DataAccess.Interface/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/azitowolf/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/azitowolf/Documents/Development/cs50-library-app/Library.DomainModels/Library.DomainModels.csproj": {
+                "projectPath": "/Users/azitowolf/Documents/Development/cs50-library-app/Library.DomainModels/Library.DomainModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/azitowolf/Documents/Development/cs50-library-app/Library.DataAccess/Library.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/azitowolf/Documents/Development/cs50-library-app/Library.DataAccess/Library.DataAccess.csproj",
+        "projectName": "Library.DataAccess",
+        "projectPath": "/Users/azitowolf/Documents/Development/cs50-library-app/Library.DataAccess/Library.DataAccess.csproj",
+        "packagesPath": "/Users/azitowolf/.nuget/packages/",
+        "outputPath": "/Users/azitowolf/Documents/Development/cs50-library-app/Library.DataAccess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/azitowolf/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/azitowolf/Documents/Development/cs50-library-app/Library.DataAccess.Interface/Library.DataAccess.Interface.csproj": {
+                "projectPath": "/Users/azitowolf/Documents/Development/cs50-library-app/Library.DataAccess.Interface/Library.DataAccess.Interface.csproj"
+              },
+              "/Users/azitowolf/Documents/Development/cs50-library-app/Library.DomainModels/Library.DomainModels.csproj": {
+                "projectPath": "/Users/azitowolf/Documents/Development/cs50-library-app/Library.DomainModels/Library.DomainModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/azitowolf/Documents/Development/cs50-library-app/Library.DomainModels/Library.DomainModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/azitowolf/Documents/Development/cs50-library-app/Library.DomainModels/Library.DomainModels.csproj",
+        "projectName": "Library.DomainModels",
+        "projectPath": "/Users/azitowolf/Documents/Development/cs50-library-app/Library.DomainModels/Library.DomainModels.csproj",
+        "packagesPath": "/Users/azitowolf/.nuget/packages/",
+        "outputPath": "/Users/azitowolf/Documents/Development/cs50-library-app/Library.DomainModels/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/azitowolf/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

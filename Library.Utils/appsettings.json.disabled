@@ -1,0 +1,22 @@
+﻿{
+  "Logging": {
+    "IncludeScopes": false,
+    "Debug": {
+      "LogLevel": {
+        "Default": "Warning"
+      }
+    },
+
+    "Console": {
+      "LogLevel": {
+        "Default": "Warning"
+      }
+    }
+  },
+  "AzureStorageConfig": {
+    "AccountName": "libraryimagestore",
+    "AccountKey": "EYM6dnSrWrBlVAthpVZjZaXK+aSPc10gSZZxpTnLt0Ar8xJ1zNztzu/vZdWmgnXwzMlqBOpTtYf529cfZq8JeQ==",
+    "ImageContainer": "images",
+    "ThumbnailContainer": "thumbnails"
+  }
+} 

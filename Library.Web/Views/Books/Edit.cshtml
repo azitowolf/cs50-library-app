@@ -1,0 +1,38 @@
+@model Library.Web.Models.BookEditViewModel
+
+<h2>Editing book name @Model.BookToEdit.Title</h2>
+@using (Html.BeginForm("Edit", "Books", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true, "danger", new { @class = "text-danger" })
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.BookToEdit.Title)
+        @Html.TextBoxFor(m => m.BookToEdit.Title, "", new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.BookToEdit.Title, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.BookToEdit.AuthorId)
+        @Html.DropDownListFor(m => m.BookToEdit.AuthorId, Model.AuthorSelect, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        <label>
+            @Html.LabelFor(m => m.BookToEdit.IsAvailable)
+            @Html.CheckBoxFor(m => m.BookToEdit.IsAvailable)
+        </label>
+    </div>
+
+    @* <div class="form-group">
+        <label>
+            <p><img id="output" width="200" /></p>
+            @Html.LabelFor(m => m.NewBookImageFile)
+            @Html.TextBoxFor(m => m.NewBookImageFile, new { type = "file", accept = "image/jpeg,  image/jpg" })
+
+        </label>
+    </div> *@
+
+    <input class="btn btn-success" type="submit" value="submit">
+}
+

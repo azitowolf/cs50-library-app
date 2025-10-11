@@ -1,0 +1,30 @@
+﻿@model Library.Web.Models.AuthorsViewModel
+
+<h3>Authors</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>ID</th>
+            <th>Books</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var i in Model.Authors)
+        {
+        <tr>
+            <td><a href="/authors/detail/@i.Id"> @i.Name </a></td>
+            <td>@i.Id</td>
+            <td>
+                <ul>
+                    @foreach (var j in i.Books)
+                    {
+                        <li>@j.Title</li>
+                    }
+                </ul>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

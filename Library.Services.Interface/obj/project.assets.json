@@ -1,0 +1,117 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Library.DataAccess.Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Library.DomainModels": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Library.DataAccess.Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.DataAccess.Interface.dll": {}
+        }
+      },
+      "Library.DomainModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Library.DomainModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.DomainModels.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Library.DataAccess.Interface/1.0.0": {
+      "type": "project",
+      "path": "../Library.DataAccess.Interface/Library.DataAccess.Interface.csproj",
+      "msbuildProject": "../Library.DataAccess.Interface/Library.DataAccess.Interface.csproj"
+    },
+    "Library.DomainModels/1.0.0": {
+      "type": "project",
+      "path": "../Library.DomainModels/Library.DomainModels.csproj",
+      "msbuildProject": "../Library.DomainModels/Library.DomainModels.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Library.DataAccess.Interface >= 1.0.0",
+      "Library.DomainModels >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/azitowolf/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/azitowolf/Documents/Development/cs50-library-app/Library.Services.Interface/Library.Services.Interface.csproj",
+      "projectName": "Library.Services.Interface",
+      "projectPath": "/Users/azitowolf/Documents/Development/cs50-library-app/Library.Services.Interface/Library.Services.Interface.csproj",
+      "packagesPath": "/Users/azitowolf/.nuget/packages/",
+      "outputPath": "/Users/azitowolf/Documents/Development/cs50-library-app/Library.Services.Interface/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/azitowolf/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/Users/azitowolf/Documents/Development/cs50-library-app/Library.DataAccess.Interface/Library.DataAccess.Interface.csproj": {
+              "projectPath": "/Users/azitowolf/Documents/Development/cs50-library-app/Library.DataAccess.Interface/Library.DataAccess.Interface.csproj"
+            },
+            "/Users/azitowolf/Documents/Development/cs50-library-app/Library.DomainModels/Library.DomainModels.csproj": {
+              "projectPath": "/Users/azitowolf/Documents/Development/cs50-library-app/Library.DomainModels/Library.DomainModels.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

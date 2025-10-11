@@ -1,0 +1,11 @@
+/Users/azitowolf/Documents/Development/cs50-library-app/Library.DomainModels/bin/Debug/net6.0/Library.DomainModels.deps.json
+/Users/azitowolf/Documents/Development/cs50-library-app/Library.DomainModels/bin/Debug/net6.0/Library.DomainModels.dll
+/Users/azitowolf/Documents/Development/cs50-library-app/Library.DomainModels/bin/Debug/net6.0/Library.DomainModels.pdb
+/Users/azitowolf/Documents/Development/cs50-library-app/Library.DomainModels/obj/Debug/net6.0/Library.DomainModels.GeneratedMSBuildEditorConfig.editorconfig
+/Users/azitowolf/Documents/Development/cs50-library-app/Library.DomainModels/obj/Debug/net6.0/Library.DomainModels.AssemblyInfoInputs.cache
+/Users/azitowolf/Documents/Development/cs50-library-app/Library.DomainModels/obj/Debug/net6.0/Library.DomainModels.AssemblyInfo.cs
+/Users/azitowolf/Documents/Development/cs50-library-app/Library.DomainModels/obj/Debug/net6.0/Library.DomainModels.csproj.CoreCompileInputs.cache
+/Users/azitowolf/Documents/Development/cs50-library-app/Library.DomainModels/obj/Debug/net6.0/Library.DomainModels.dll
+/Users/azitowolf/Documents/Development/cs50-library-app/Library.DomainModels/obj/Debug/net6.0/refint/Library.DomainModels.dll
+/Users/azitowolf/Documents/Development/cs50-library-app/Library.DomainModels/obj/Debug/net6.0/Library.DomainModels.pdb
+/Users/azitowolf/Documents/Development/cs50-library-app/Library.DomainModels/obj/Debug/net6.0/ref/Library.DomainModels.dll

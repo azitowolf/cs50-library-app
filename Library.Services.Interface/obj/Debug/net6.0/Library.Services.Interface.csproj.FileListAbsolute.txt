@@ -1,0 +1,17 @@
+/Users/azitowolf/Documents/Development/cs50-library-app/Library.Services.Interface/bin/Debug/net6.0/Library.Services.Interface.deps.json
+/Users/azitowolf/Documents/Development/cs50-library-app/Library.Services.Interface/bin/Debug/net6.0/Library.Services.Interface.dll
+/Users/azitowolf/Documents/Development/cs50-library-app/Library.Services.Interface/bin/Debug/net6.0/Library.Services.Interface.pdb
+/Users/azitowolf/Documents/Development/cs50-library-app/Library.Services.Interface/bin/Debug/net6.0/Library.DataAccess.Interface.dll
+/Users/azitowolf/Documents/Development/cs50-library-app/Library.Services.Interface/bin/Debug/net6.0/Library.DomainModels.dll
+/Users/azitowolf/Documents/Development/cs50-library-app/Library.Services.Interface/bin/Debug/net6.0/Library.DataAccess.Interface.pdb
+/Users/azitowolf/Documents/Development/cs50-library-app/Library.Services.Interface/bin/Debug/net6.0/Library.DomainModels.pdb
+/Users/azitowolf/Documents/Development/cs50-library-app/Library.Services.Interface/obj/Debug/net6.0/Library.Services.Interface.csproj.AssemblyReference.cache
+/Users/azitowolf/Documents/Development/cs50-library-app/Library.Services.Interface/obj/Debug/net6.0/Library.Services.Interface.GeneratedMSBuildEditorConfig.editorconfig
+/Users/azitowolf/Documents/Development/cs50-library-app/Library.Services.Interface/obj/Debug/net6.0/Library.Services.Interface.AssemblyInfoInputs.cache
+/Users/azitowolf/Documents/Development/cs50-library-app/Library.Services.Interface/obj/Debug/net6.0/Library.Services.Interface.AssemblyInfo.cs
+/Users/azitowolf/Documents/Development/cs50-library-app/Library.Services.Interface/obj/Debug/net6.0/Library.Services.Interface.csproj.CoreCompileInputs.cache
+/Users/azitowolf/Documents/Development/cs50-library-app/Library.Services.Interface/obj/Debug/net6.0/Library..5EEF0435.Up2Date
+/Users/azitowolf/Documents/Development/cs50-library-app/Library.Services.Interface/obj/Debug/net6.0/Library.Services.Interface.dll
+/Users/azitowolf/Documents/Development/cs50-library-app/Library.Services.Interface/obj/Debug/net6.0/refint/Library.Services.Interface.dll
+/Users/azitowolf/Documents/Development/cs50-library-app/Library.Services.Interface/obj/Debug/net6.0/Library.Services.Interface.pdb
+/Users/azitowolf/Documents/Development/cs50-library-app/Library.Services.Interface/obj/Debug/net6.0/ref/Library.Services.Interface.dll

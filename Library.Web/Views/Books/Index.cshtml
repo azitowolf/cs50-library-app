@@ -1,0 +1,98 @@
+﻿@model Library.Web.Models.BooksViewModel
+@* TODO: Add a book to the table - POST to DB *@
+@* Selectlistitem class (interface expects the class)  *@
+@* TODO: add an antiforgerytoken to this page *@
+@* TODO: add some basic validation! *@
+@* TODO: add the edit column for books *@
+@* TODO: add filters embedded in the table, like this: https://examples.bootstrap-table.com/#extensions/filter-control.html *@
+
+<h2>All Books</h2>
+
+<h3 class="filter-header">Filter  <span class="chevron">&#x25BC;</span></h3>
+
+<div class="d-flex flex-row"> 
+    <div hidden aria-hidden="true" class="filters">
+        <form asp-controller="Books" asp-action="Index" method="get">
+            <p>
+                Title Contains: 
+                <input type="text" name="searchString" />
+                <input type="submit" value="Filter" />
+            </p>
+        </form>
+
+        <form asp-controller="Books" asp-action="Index" method="get">
+            <p>
+                Starts With: <input type="text" name="startsWith" />
+                <input type="submit" value="Filter" />
+            </p>
+        </form>
+
+        <form asp-controller="Books" asp-action="Index" method="get">
+            <p>
+                Date Created Between:
+                    <input type="date" name="dateRangeStart" />
+                    <input type="date" name="dateRangeEnd" />
+                    <input type="submit" value="Filter" />
+            </p>
+        </form>
+    </div>
+    
+</div>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Image</th>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Availablility</th>
+            <th>Created Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var i in Model.Books)
+        {
+        <tr>
+            <td><img src=@i.ImageUrl style="width:100px" /></td>
+            <td>@i.Id</td>
+            <td><a href="/books/detail/@i.Id"> @i.Title </a></td>
+            <td>@i.Author.Name</td>
+            <td>@i.IsAvailable</td>
+            <td>@i.CreatedOn</td>
+            <td>
+                <form asp-controller="Books" asp-action="Delete" method="post">
+                    <p>
+                        <input type="hidden" name="id" value=@i.Id />
+                        <input type="submit" class="btn btn-outline-secondary" value="Delete" />
+                    </p>
+                </form>
+                @* <button type="delete" asp-controller="Books" asp-action="Delete/@i.Id" method="get"> Delete</button> *@
+                <td>
+                    <a href="/books/edit/@i.Id">
+                        <button class="btn btn-outline-secondary"> Edit </button>
+                    </a>
+                </td>
+
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+
+<style>
+    .filters {
+        
+    }
+</style>
+
+<script>
+    let handleFilterClick = () => {
+        let $filter = document.querySelector(".filters"); 
+        let $chevron = document.querySelector(".filter-header .chevron");
+        $chevron.innerHTML = $filter.hidden ?  "&#9650;" : "&#x25BC;";
+        $filter.hidden = !$filter.hidden;
+    }
+    document.querySelector(".filter-header").addEventListener('click', handleFilterClick);
+
+</script>
