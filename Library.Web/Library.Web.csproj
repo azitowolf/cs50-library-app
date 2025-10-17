@@ -5,6 +5,8 @@
   </PropertyGroup>
 
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Web\Microsoft.Web.Publishing.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets" />
+
 
   <ItemGroup>
     <PackageReference Include="Azure.Search.Documents" Version="11.3.0" />
