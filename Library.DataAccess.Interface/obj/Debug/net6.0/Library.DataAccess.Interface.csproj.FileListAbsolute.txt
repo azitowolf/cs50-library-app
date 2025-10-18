@@ -14,3 +14,6 @@
 /Users/azitowolf/Documents/Development/cs50-library-app/Library.DataAccess.Interface/obj/Debug/net6.0/Library.DataAccess.Interface.pdb
 /Users/azitowolf/Documents/Development/cs50-library-app/Library.DataAccess.Interface/obj/Debug/net6.0/ref/Library.DataAccess.Interface.dll
 /Users/azitowolf/Documents/Development/cs50-library-app/Library.DataAccess.Interface/obj/Debug/net6.0/Library.DataAccess.Interface.sourcelink.json
+/Users/azitowolf/Documents/Development/cs50-library-app/dist/Library.DataAccess.Interface.deps.json
+/Users/azitowolf/Documents/Development/cs50-library-app/dist/Library.DataAccess.Interface.dll
+/Users/azitowolf/Documents/Development/cs50-library-app/dist/Library.DataAccess.Interface.pdb

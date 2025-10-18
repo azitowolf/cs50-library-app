@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "covV0y8yXmo=",
+  "dgSpecHash": "A5NbNzNDwig=",
   "success": true,
   "projectFilePath": "/Users/azitowolf/Documents/Development/cs50-library-app/Library.Web/Library.Web.csproj",
   "expectedPackageFiles": [
@@ -164,7 +164,10 @@
     "/Users/azitowolf/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
     "/Users/azitowolf/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512",
     "/Users/azitowolf/.nuget/packages/system.xml.xmldocument/4.3.0/system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "/Users/azitowolf/.nuget/packages/westwind.aspnetcore.livereload/0.2.14/westwind.aspnetcore.livereload.0.2.14.nupkg.sha512"
+    "/Users/azitowolf/.nuget/packages/westwind.aspnetcore.livereload/0.2.14/westwind.aspnetcore.livereload.0.2.14.nupkg.sha512",
+    "/Users/azitowolf/.nuget/packages/microsoft.netcore.app.ref/8.0.20/microsoft.netcore.app.ref.8.0.20.nupkg.sha512",
+    "/Users/azitowolf/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.20/microsoft.aspnetcore.app.ref.8.0.20.nupkg.sha512",
+    "/Users/azitowolf/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.20/microsoft.netcore.app.host.osx-arm64.8.0.20.nupkg.sha512"
   ],
   "logs": []
 }

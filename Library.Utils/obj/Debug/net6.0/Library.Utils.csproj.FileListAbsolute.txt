@@ -22,3 +22,6 @@
 /Users/azitowolf/Documents/Development/cs50-library-app/Library.Utils/obj/Debug/net6.0/Library.Utils.pdb
 /Users/azitowolf/Documents/Development/cs50-library-app/Library.Utils/obj/Debug/net6.0/ref/Library.Utils.dll
 /Users/azitowolf/Documents/Development/cs50-library-app/Library.Utils/obj/Debug/net6.0/Library.Utils.sourcelink.json
+/Users/azitowolf/Documents/Development/cs50-library-app/dist/Library.Utils.deps.json
+/Users/azitowolf/Documents/Development/cs50-library-app/dist/Library.Utils.dll
+/Users/azitowolf/Documents/Development/cs50-library-app/dist/Library.Utils.pdb
