@@ -62,5 +62,8 @@ jobs:
         with:
           app-name: 'codementor-library-app'
           slot-name: 'Production'
-          package: .
+          package: ./bin/
+
           
+
+
