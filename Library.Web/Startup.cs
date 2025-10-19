@@ -30,8 +30,8 @@ namespace Library.Web
             services.Configure<AzureStorageConfig>(Configuration.GetSection("AzureStorageConfig"));
             try
             {
-                // services.AddSqlServerDbContext(Configuration);
-                services.AddInMemoryLibraryDbContext();
+                services.AddSqlServerDbContext(Configuration);
+                // services.AddInMemoryLibraryDbContext();
             }
             catch (Exception e)
             {

@@ -45,8 +45,8 @@ namespace Library.Utils.Extensions
                     b => b.MigrationsAssembly("Library.DataAccess")));
 
             // Get the database context and apply the migrations
-            //var context = services.BuildServiceProvider().GetService<LibraryDbContext>();
-            //context.Database.Migrate();
+            var context = services.BuildServiceProvider().GetService<LibraryDbContext>();
+            context.Database.Migrate();
 
             return services;
 

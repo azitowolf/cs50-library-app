@@ -10,3 +10,6 @@
 *.suo
 *.user
 *.userosscache
+
+# Secrets
+appsettings.json

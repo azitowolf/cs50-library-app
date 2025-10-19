@@ -53,14 +53,14 @@ namespace Library.DataAccess
         {
             // error handling
             // unit test on this one
-            var foundBook = await _dbContext.Books.FindAsync(id);
+            var foundBook = _dbContext.Books.Find(id);
             return foundBook ?? new Book();
         }
         public async Task<Book> EditOne(Book editedBook, int id)
         {
             // error handling
             // unit test on this one
-            var foundBook = await _dbContext.Books.FindAsync(id);
+            var foundBook = _dbContext.Books.Find(id);
             foundBook.AuthorId = editedBook.AuthorId;
             foundBook.Title = editedBook.Title;
             foundBook.IsAvailable = editedBook.IsAvailable;

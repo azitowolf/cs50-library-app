@@ -38,7 +38,7 @@ namespace Library.Web.Controllers
             return searchClient;
         }
  
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string text, int id)
         {
             try 
             {
@@ -47,14 +47,19 @@ namespace Library.Web.Controllers
                 SearchResults<SearchResult> results;
 
 
-                Console.WriteLine("searching for all books:\n");
+                // Console.WriteLine("searching for all books:\n");
                 var searchClient = CreateSearchClientForQueries("azuresql-index", _configuration);
                 options = new SearchOptions();
                 options.Select.Add("Title");
                 options.Select.Add("Id");
                 options.Select.Add("ImageUrl");
 
-                results = searchClient.Search<SearchResult>("*", options);
+                if(id != 0)
+                {
+                    options.Filter = $"Id eq '{id.ToString()}'";
+                }
+   
+                results = searchClient.Search<SearchResult>(text, options);
                 
                 var viewModel = new SearchResultsViewModel();
                 
